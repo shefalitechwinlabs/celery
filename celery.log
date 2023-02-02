@@ -1,0 +1,193 @@
+[2023-02-02 09:25:43,260: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-02 09:25:43,265: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-02 09:25:44,282: INFO/MainProcess] mingle: all alone
+[2023-02-02 09:25:44,318: WARNING/MainProcess] /Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2023-02-02 09:25:44,319: INFO/MainProcess] celery@MacMini-python.local ready.
+[2023-02-02 09:30:19,168: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-02 09:30:19,176: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-02 09:30:20,194: INFO/MainProcess] mingle: all alone
+[2023-02-02 09:30:20,215: WARNING/MainProcess] /Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2023-02-02 09:30:20,215: INFO/MainProcess] celery@MacMini-python.local ready.
+[2023-02-02 09:30:20,219: INFO/MainProcess] Task send_email[8b74773d-f13e-42d3-96ac-273240d75505] received
+[2023-02-02 09:30:40,361: WARNING/ForkPoolWorker-4] Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Your Feedback
+From: support@example.com
+To: shefali.techwinlabs@gmail.com
+Date: Thu, 02 Feb 2023 09:30:40 -0000
+Message-ID: 
+ <167533024022.7616.12278741689809996770@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+	Hello
+
+Thank you!
+[2023-02-02 09:30:40,362: WARNING/ForkPoolWorker-4] -------------------------------------------------------------------------------
+[2023-02-02 09:30:40,368: INFO/ForkPoolWorker-4] Task send_email[8b74773d-f13e-42d3-96ac-273240d75505] succeeded in 20.147688519s: None
+[2023-02-02 09:30:40,785: INFO/MainProcess] Task send_email[cb311ec4-675a-4afd-84aa-fef70acf4277] received
+[2023-02-02 09:31:00,789: WARNING/ForkPoolWorker-4] Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Your Feedback
+From: support@example.com
+To: shefali.techwinlabs@gmail.com
+Date: Thu, 02 Feb 2023 09:31:00 -0000
+Message-ID: 
+ <167533026078.7616.1367224004668653479@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+	Hello
+
+Thank you!
+[2023-02-02 09:31:00,793: WARNING/ForkPoolWorker-4] -------------------------------------------------------------------------------
+[2023-02-02 09:31:00,795: INFO/ForkPoolWorker-4] Task send_email[cb311ec4-675a-4afd-84aa-fef70acf4277] succeeded in 20.009463687000004s: None
+[2023-02-02 09:31:10,788: INFO/MainProcess] Task send_email[6fff34f3-4cd4-43c1-af5b-14c9b46052c9] received
+[2023-02-02 09:50:29,888: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-02 09:50:29,896: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-02 09:50:30,913: INFO/MainProcess] mingle: all alone
+[2023-02-02 09:50:30,936: WARNING/MainProcess] /Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2023-02-02 09:50:30,936: INFO/MainProcess] celery@MacMini-python.local ready.
+[2023-02-02 09:51:21,177: INFO/MainProcess] Task print_msg_main[b3a61b2f-d2db-4dc0-9a29-0ac149a9a84b] received
+[2023-02-02 09:51:21,181: WARNING/ForkPoolWorker-4] Celery is working!! Message is Hello World
+[2023-02-02 09:51:21,197: INFO/ForkPoolWorker-4] Task print_msg_main[b3a61b2f-d2db-4dc0-9a29-0ac149a9a84b] succeeded in 0.01724665999999786s: None
+[2023-02-02 09:54:00,429: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-02 09:54:00,440: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-02 09:54:01,463: INFO/MainProcess] mingle: all alone
+[2023-02-02 09:54:01,487: WARNING/MainProcess] /Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2023-02-02 09:54:01,487: INFO/MainProcess] celery@MacMini-python.local ready.
+[2023-02-02 09:54:01,491: INFO/MainProcess] Task print_msg_main[669c799c-deb4-4ca5-bdb7-eb44b5d5b39a] received
+[2023-02-02 09:54:01,493: INFO/MainProcess] Task print_msg_main[73f145d8-abf3-4b94-9909-a1eca72b4fe1] received
+[2023-02-02 09:54:01,495: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:54:01,496: WARNING/ForkPoolWorker-2] Celery is working!! Message is H
+[2023-02-02 09:54:01,507: INFO/ForkPoolWorker-4] Task print_msg_main[669c799c-deb4-4ca5-bdb7-eb44b5d5b39a] succeeded in 0.012278036000000103s: None
+[2023-02-02 09:54:01,508: INFO/ForkPoolWorker-2] Task print_msg_main[73f145d8-abf3-4b94-9909-a1eca72b4fe1] succeeded in 0.01303012800000003s: None
+[2023-02-02 09:54:23,302: INFO/MainProcess] Task print_msg_main[ef91fb09-f8b9-4610-99a7-d6ca6dd6da1a] received
+[2023-02-02 09:54:23,303: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:54:23,305: INFO/ForkPoolWorker-4] Task print_msg_main[ef91fb09-f8b9-4610-99a7-d6ca6dd6da1a] succeeded in 0.001600141000000832s: None
+[2023-02-02 09:54:53,303: INFO/MainProcess] Task print_msg_main[359dc2ca-1961-45a9-90fc-375361ef26d4] received
+[2023-02-02 09:54:53,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:54:53,307: INFO/ForkPoolWorker-4] Task print_msg_main[359dc2ca-1961-45a9-90fc-375361ef26d4] succeeded in 0.002400438999998755s: None
+[2023-02-02 09:55:23,303: INFO/MainProcess] Task print_msg_main[74f88a83-8cb6-42fe-9ad7-22f453cec283] received
+[2023-02-02 09:55:23,304: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:55:23,306: INFO/ForkPoolWorker-4] Task print_msg_main[74f88a83-8cb6-42fe-9ad7-22f453cec283] succeeded in 0.001563326000010079s: None
+[2023-02-02 09:55:53,303: INFO/MainProcess] Task print_msg_main[d104e667-25e3-4455-8d1e-dbbac8531973] received
+[2023-02-02 09:55:53,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:55:53,306: INFO/ForkPoolWorker-4] Task print_msg_main[d104e667-25e3-4455-8d1e-dbbac8531973] succeeded in 0.0014939759999919033s: None
+[2023-02-02 09:56:23,302: INFO/MainProcess] Task print_msg_main[d92c13a3-ba7b-405a-828c-1a24612d1f17] received
+[2023-02-02 09:56:23,304: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:56:23,305: INFO/ForkPoolWorker-4] Task print_msg_main[d92c13a3-ba7b-405a-828c-1a24612d1f17] succeeded in 0.001680959999987408s: None
+[2023-02-02 09:56:53,304: INFO/MainProcess] Task print_msg_main[bfe6308f-d46b-4cf1-b3d1-059740a0201f] received
+[2023-02-02 09:56:53,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:56:53,307: INFO/ForkPoolWorker-4] Task print_msg_main[bfe6308f-d46b-4cf1-b3d1-059740a0201f] succeeded in 0.0020109679999791297s: None
+[2023-02-02 09:57:23,303: INFO/MainProcess] Task print_msg_main[647701d4-73ae-4888-9f97-d2cd300e1315] received
+[2023-02-02 09:57:23,304: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:57:23,306: INFO/ForkPoolWorker-4] Task print_msg_main[647701d4-73ae-4888-9f97-d2cd300e1315] succeeded in 0.0015338590000055774s: None
+[2023-02-02 09:57:53,303: INFO/MainProcess] Task print_msg_main[fb4636f1-c016-4616-902e-e484772e2886] received
+[2023-02-02 09:57:53,304: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:57:53,305: INFO/ForkPoolWorker-4] Task print_msg_main[fb4636f1-c016-4616-902e-e484772e2886] succeeded in 0.0015765710000152922s: None
+[2023-02-02 09:58:23,304: INFO/MainProcess] Task print_msg_main[5f9cd0dc-0868-4576-8597-1920a5b69f1d] received
+[2023-02-02 09:58:23,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:58:23,307: INFO/ForkPoolWorker-4] Task print_msg_main[5f9cd0dc-0868-4576-8597-1920a5b69f1d] succeeded in 0.001746380999975372s: None
+[2023-02-02 09:58:53,310: INFO/MainProcess] Task print_msg_main[81979677-1816-4a07-a263-eab5e69983ad] received
+[2023-02-02 09:58:53,314: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:58:53,319: INFO/ForkPoolWorker-4] Task print_msg_main[81979677-1816-4a07-a263-eab5e69983ad] succeeded in 0.00495760300003667s: None
+[2023-02-02 09:59:23,305: INFO/MainProcess] Task print_msg_main[450bc3b2-50b7-4e21-9b04-55c424bb9193] received
+[2023-02-02 09:59:23,306: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:59:23,307: INFO/ForkPoolWorker-4] Task print_msg_main[450bc3b2-50b7-4e21-9b04-55c424bb9193] succeeded in 0.0015674819999844658s: None
+[2023-02-02 09:59:53,304: INFO/MainProcess] Task print_msg_main[abe24922-2e4e-4f68-9ec6-bda64220dd53] received
+[2023-02-02 09:59:53,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 09:59:53,307: INFO/ForkPoolWorker-4] Task print_msg_main[abe24922-2e4e-4f68-9ec6-bda64220dd53] succeeded in 0.0019267099999638049s: None
+[2023-02-02 10:00:23,303: INFO/MainProcess] Task print_msg_main[82ad6e85-4d90-4b31-965d-6a784dab6140] received
+[2023-02-02 10:00:23,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 10:00:23,306: INFO/ForkPoolWorker-4] Task print_msg_main[82ad6e85-4d90-4b31-965d-6a784dab6140] succeeded in 0.0016411589999734133s: None
+[2023-02-02 10:01:20,467: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-02-02 10:01:20,475: INFO/MainProcess] mingle: searching for neighbors
+[2023-02-02 10:01:21,487: INFO/MainProcess] mingle: all alone
+[2023-02-02 10:01:21,511: WARNING/MainProcess] /Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/fixups/django.py:204: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  leak, never use this setting in production environments!''')
+
+[2023-02-02 10:01:21,511: INFO/MainProcess] celery@MacMini-python.local ready.
+[2023-02-02 10:01:21,516: INFO/MainProcess] Task print_msg_main[2718cabf-7e16-4d77-a487-c2e0ea3e763a] received
+[2023-02-02 10:01:21,518: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 10:01:21,529: INFO/ForkPoolWorker-4] Task print_msg_main[2718cabf-7e16-4d77-a487-c2e0ea3e763a] succeeded in 0.011048351999999984s: None
+[2023-02-02 10:01:23,304: INFO/MainProcess] Task print_msg_main[aa9421ee-afde-4a13-bae3-44d9c552d880] received
+[2023-02-02 10:01:23,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 10:01:23,307: INFO/ForkPoolWorker-4] Task print_msg_main[aa9421ee-afde-4a13-bae3-44d9c552d880] succeeded in 0.0018272040000004708s: None
+[2023-02-02 10:01:53,304: INFO/MainProcess] Task print_msg_main[2c44771c-e106-45af-9f74-e4ae3b862404] received
+[2023-02-02 10:01:53,306: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 10:01:53,308: INFO/ForkPoolWorker-4] Task print_msg_main[2c44771c-e106-45af-9f74-e4ae3b862404] succeeded in 0.002559999999995455s: None
+[2023-02-02 10:02:15,523: INFO/MainProcess] Task send_email[e3f0d4b4-4e92-46a4-a0a6-cba102cd43ab] received
+[2023-02-02 10:02:23,305: INFO/MainProcess] Task print_msg_main[65778694-8dd2-4af4-b115-a195912bbf3e] received
+[2023-02-02 10:02:23,308: WARNING/ForkPoolWorker-2] Celery is working!! Message is H
+[2023-02-02 10:02:23,319: INFO/ForkPoolWorker-2] Task print_msg_main[65778694-8dd2-4af4-b115-a195912bbf3e] succeeded in 0.0111136149999993s: None
+[2023-02-02 10:02:35,747: WARNING/ForkPoolWorker-4] Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Your Feedback
+From: support@example.com
+To: shefali.techwinlabs@gmail.com
+Date: Thu, 02 Feb 2023 10:02:35 -0000
+Message-ID: 
+ <167533215553.9396.8791303061168180416@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+	Hello
+
+Thank you!
+[2023-02-02 10:02:35,747: WARNING/ForkPoolWorker-4] -------------------------------------------------------------------------------
+[2023-02-02 10:02:35,749: INFO/ForkPoolWorker-4] Task send_email[e3f0d4b4-4e92-46a4-a0a6-cba102cd43ab] succeeded in 20.225936642999997s: None
+[2023-02-02 10:02:53,303: INFO/MainProcess] Task print_msg_main[6fb78bc8-5d0c-4b4e-80ac-b959937c5722] received
+[2023-02-02 10:02:53,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 10:02:53,306: INFO/ForkPoolWorker-4] Task print_msg_main[6fb78bc8-5d0c-4b4e-80ac-b959937c5722] succeeded in 0.001519118999993907s: None
+[2023-02-02 10:03:15,469: INFO/MainProcess] Task send_email[889bf2c9-7a37-4a6c-9a57-a1915aa93435] received
+[2023-02-02 10:03:23,304: INFO/MainProcess] Task print_msg_main[049ba548-3e3c-4f62-a352-6694f93495b2] received
+[2023-02-02 10:03:23,305: WARNING/ForkPoolWorker-2] Celery is working!! Message is H
+[2023-02-02 10:03:23,306: INFO/ForkPoolWorker-2] Task print_msg_main[049ba548-3e3c-4f62-a352-6694f93495b2] succeeded in 0.001587721999996461s: None
+[2023-02-02 10:03:35,473: WARNING/ForkPoolWorker-4] Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Your Feedback
+From: support@example.com
+To: shefali.techwinlabs@gmail.com
+Date: Thu, 02 Feb 2023 10:03:35 -0000
+Message-ID: 
+ <167533221547.9396.11156659983685616017@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+	Hello
+
+Thank you!
+[2023-02-02 10:03:35,474: WARNING/ForkPoolWorker-4] -------------------------------------------------------------------------------
+[2023-02-02 10:03:35,475: INFO/ForkPoolWorker-4] Task send_email[889bf2c9-7a37-4a6c-9a57-a1915aa93435] succeeded in 20.005833841999987s: None
+[2023-02-02 10:03:53,304: INFO/MainProcess] Task print_msg_main[856a15df-e701-4147-9276-2a585e4e469a] received
+[2023-02-02 10:03:53,305: WARNING/ForkPoolWorker-4] Celery is working!! Message is H
+[2023-02-02 10:03:53,306: INFO/ForkPoolWorker-4] Task print_msg_main[856a15df-e701-4147-9276-2a585e4e469a] succeeded in 0.001527527000007467s: None
+[2023-02-02 10:04:15,468: INFO/MainProcess] Task send_email[1439c19e-a466-4f10-8c73-a021aaf85a3c] received
+[2023-02-02 10:04:23,304: INFO/MainProcess] Task print_msg_main[38a50ab4-fd8b-4f8b-97a0-cd888e857e59] received
+[2023-02-02 10:04:23,305: WARNING/ForkPoolWorker-2] Celery is working!! Message is H
+[2023-02-02 10:04:23,306: INFO/ForkPoolWorker-2] Task print_msg_main[38a50ab4-fd8b-4f8b-97a0-cd888e857e59] succeeded in 0.001550436999991689s: None
+[2023-02-02 10:04:35,472: WARNING/ForkPoolWorker-4] Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Your Feedback
+From: support@example.com
+To: shefali.techwinlabs@gmail.com
+Date: Thu, 02 Feb 2023 10:04:35 -0000
+Message-ID: 
+ <167533227547.9396.2760586023000551600@1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa>
+
+	Hello
+
+Thank you!
+[2023-02-02 10:04:35,473: WARNING/ForkPoolWorker-4] -------------------------------------------------------------------------------
+[2023-02-02 10:04:35,475: INFO/ForkPoolWorker-4] Task send_email[1439c19e-a466-4f10-8c73-a021aaf85a3c] succeeded in 20.00560274899999s: None

@@ -1,0 +1,53 @@
+[2023-02-02 09:29:40,769: INFO/MainProcess] beat: Starting...
+[2023-02-02 09:30:10,790: INFO/MainProcess] Scheduler: Sending due task print-message-ten-seconds (send_email)
+[2023-02-02 09:30:40,781: INFO/MainProcess] Scheduler: Sending due task print-message-ten-seconds (send_email)
+[2023-02-02 09:31:10,781: INFO/MainProcess] Scheduler: Sending due task print-message-ten-seconds (send_email)
+[2023-02-02 09:52:53,284: INFO/MainProcess] beat: Starting...
+[2023-02-02 09:53:23,309: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:53:53,298: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:54:23,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:54:53,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:55:23,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:55:53,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:56:23,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:56:53,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:57:23,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:57:53,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:58:23,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:58:53,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:59:23,299: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 09:59:53,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:00:23,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:00:53,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:01:15,445: INFO/MainProcess] beat: Starting...
+[2023-02-02 10:01:15,454: ERROR/MainProcess] Removing corrupted schedule file 'celerybeat-schedule': error(35, 'Resource temporarily unavailable')
+Traceback (most recent call last):
+  File "/Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/cached_property.py", line 70, in __get__
+    return obj_dict[name]
+KeyError: 'scheduler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/beat.py", line 533, in setup_schedule
+    self._store = self._open_schedule()
+  File "/Users/techwin/Downloads/materials-celery-async-tasks/env/lib/python3.7/site-packages/celery/beat.py", line 523, in _open_schedule
+    return self.persistence.open(self.schedule_filename, writeback=True)
+  File "/usr/local/opt/python@3.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/shelve.py", line 243, in open
+    return DbfilenameShelf(filename, flag, protocol, writeback)
+  File "/usr/local/opt/python@3.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/shelve.py", line 227, in __init__
+    Shelf.__init__(self, dbm.open(filename, flag), protocol, writeback)
+  File "/usr/local/opt/python@3.7/Frameworks/Python.framework/Versions/3.7/lib/python3.7/dbm/__init__.py", line 94, in open
+    return mod.open(file, flag, mode)
+_gdbm.error: [Errno 35] Resource temporarily unavailable
+[2023-02-02 10:01:23,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:01:53,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:02:15,473: INFO/MainProcess] Scheduler: Sending due task send-email-one-minute (send_email)
+[2023-02-02 10:02:23,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:02:53,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:03:15,465: INFO/MainProcess] Scheduler: Sending due task send-email-one-minute (send_email)
+[2023-02-02 10:03:23,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:03:53,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:04:15,465: INFO/MainProcess] Scheduler: Sending due task send-email-one-minute (send_email)
+[2023-02-02 10:04:23,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
+[2023-02-02 10:04:53,300: INFO/MainProcess] Scheduler: Sending due task print-message-thirty-seconds (print_msg_main)
