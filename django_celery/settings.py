@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "feedback.apps.FeedbackConfig",
-    'django_celery_beat'
+    'django_celery_beat',
+    'django_celery_results'
 ]
 
 MIDDLEWARE = [
@@ -73,35 +74,39 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "django_celery.wsgi.application"
 
-# Celery settings
+# Celery settings with redis
 CELERY_BROKER_URL = "redis://localhost:6379"
-CELERY_BEAT_SCHEDULER = 'celerybeatmongo.schedulers.MongoScheduler' 
+# CELERY_BEAT_SCHEDULER = 'redis://localhost:6379'
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+# CELERY_BEAT_SCHEDULER = 'celerybeatmongo.schedulers.MongoScheduler' 
 CELERY_ACCEPT_CONTENT = ['application/json']  
 CELERY_TASK_SERIALIZER = 'json'  
 CELERY_RESULT_SERIALIZER = 'json'  
 CELERY_TIMEZONE = "Asia/Kolkata"
+CELERY_RESULT_BACKEND = "django-db"
+
+# Celery settings with mongodb
+# CELERY_RESULT_BACKEND = "mongo-db"
+# CELERY_MONGODB_BACKEND_SETTINGS = {
+#     "host": "127.0.0.1",
+#     "port": 27017,
+#     "database": "test",
+#     "taskmeta_collection": "stock_taskmeta_collection",
+# }
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 # Connect Django and MongoDB
-import mongoengine
-mongoengine.connect(db='test', host='127.0.0.1', port=27017, alias="test")
+# import mongoengine
+# mongoengine.connect(db='test', host='127.0.0.1', port=27017, alias='test')
 
-# CELERY MONGO SETTINGS
-CELERY_RESULT_BACKEND = "mongodb"
-CELERY_MONGODB_BACKEND_SETTINGS = {
-    "host": "127.0.0.1",
-    "port": 27017,
-    "database": "test",
-    "taskmeta_collection": "stock_taskmeta_collection",
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / 'db.sqlite3',
+    }
 }
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.sqlite3",
-#         "NAME": BASE_DIR / "db.sqlite3",
-#     }
-# }
 
 
 # Password validation
@@ -128,7 +133,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Kolkata"
 
 USE_I18N = True
 
